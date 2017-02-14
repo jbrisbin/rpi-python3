@@ -24,5 +24,3 @@ RUN apt-get install -y \
 RUN apt-get install -y \
     python3-smbus \
     python3-rpi.gpio
-
-VOLUME /dev
