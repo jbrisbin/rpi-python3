@@ -22,6 +22,7 @@ RUN apt-get install -y \
 
 # Install smbus and envirophat tools
 RUN apt-get install -y \
-    python3-smbus
+    python3-smbus \
+    python3-rpi.gpio
 
 VOLUME /dev
